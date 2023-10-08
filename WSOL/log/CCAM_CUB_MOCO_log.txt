@@ -1,0 +1,7 @@
+=> creating model...
+Current working directory: /home/billymicoder/Documents/GitHub/BillyCCAM/CCAM/WSOL
+Loading unsupervised mocov2 pretrained parameters!
+======================================================
+load 5994 train images!
+load 5794 test images!
+Epoch: [0][0/375]	Time 4.358 (4.358)	Loss 0.7903 (0.7903)	BG-C-BG 0.0663 (0.0663)	BG-C-FG 0.6593 (0.6593)	FG-C-FG 0.0647 (0.0647)

@@ -1,0 +1,27 @@
+WSOL: "/home/billymicoder/Documents/GitHub/BillyCCAM/CCAM/WSOL/"
+WSSS: "/home/billymicoder/Documents/GitHub/BillyCCAM/CCAM/WSSS/"
+ROOT: "/home/billymicoder/Documents/GitHub/BillyCCAM/CCAM/data/images/CUB_200_2011/"
+DATA: "CUB_200_2011"
+DEPTH: 50
+FDIM: 2048+1024
+RESUME: ""
+DEBUG: "debug"
+LOG_DIR: "log/"
+# Create a parameter for the directory where the cropped images will be saved
+CROP_DIR: "cropped/"
+NUM_THRESHOLD: 20
+WORKERS: 4
+# Set the number of epochs to 3 for debugging (original value: 20)
+EPOCHS: 25
+# Set the batch size to 32 for debugging (original value: 16)
+BATCH_SIZE: 32
+# Add a parameter that sets whether to crop loaded images or not (type bool)
+CROP: True
+LR: 0.0001  
+WEIGHT_DECAY: 0.0001
+MOMENTUM: 0.9
+PRINT_FREQ: 25
+SEED: 1
+EXPERIMENT: ""
+EVALUTATE: False
+PRETRAINED: "mocov2"
